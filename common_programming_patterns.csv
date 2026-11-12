@@ -1,0 +1,27 @@
+Pattern,Python,C,C++,Java,JavaScript,Bash,Go,Swift,Ruby
+For Loop (1 to N),"for i in range(1, N+1):",for (int i = 1; i <= N; i++),for (int i = 1; i <= N; i++),for (int i = 1; i <= N; i++),for (let i = 1; i <= N; i++) {},for i in {1..N},for i := 1; i <= N; i++,for i in 1...N,for i in 1..N
+If-Else Conditional,if condition:,if (condition) { } else { },if (condition) { } else { },if (condition) { } else { },if (condition) { } else { },if [condition]; then ... else ...,if condition { } else { },if condition { } else { },if condition else
+Function Definition,def function_name():,return_type function_name() { },return_type function_name() { },public return_type function_name() { },function function_name() {},function function_name() {},func function_name() {},func function_name() {},def function_name
+Print Statement,"print(""Hello"")","printf(""Hello"")","cout << ""Hello""","System.out.println(""Hello"")","console.log(""Hello"")","echo ""Hello""","fmt.Println(""Hello"")","print(""Hello"")","puts ""Hello"""
+Array Declaration,"arr = [1, 2, 3]","int arr[] = {1, 2, 3};","int arr[] = {1, 2, 3};","int[] arr = {1, 2, 3};","let arr = [1, 2, 3];",arr=(1 2 3),"arr := []int{1, 2, 3}","var arr = [1, 2, 3]","arr = [1, 2, 3]"
+While Loop,while condition:,while (condition) { },while (condition) { },while (condition) { },while (condition) {},while [condition]; do ... done,for { if !condition { break } },while condition {},while condition do
+Commenting,# This is a comment,// This is a comment,// This is a comment,// This is a comment,// This is a comment,# This is a comment,// This is a comment,// This is a comment,# This is a comment
+Switch Case,switch (condition) { case ... },switch (condition) { case ... },switch (condition) { case ... },switch (condition) { case ... },switch (condition) { case ... },case $condition in ... esac,switch condition { case ... },switch condition { case ... },case condition when ... end
+Variable Declaration,x = 5,int x = 5;,int x = 5;,int x = 5;,let x = 5;,x=5,x := 5,var x = 5,x = 5
+Increment/Decrement,x += 1,x++;,x++;,x++;,x++;,((x++)),x++,x += 1,x += 1
+Return Statement,return x,return x;,return x;,return x;,return x;,return $x,return x,return x,return x
+Array Indexing,arr[0],arr[0],arr[0],arr[0],arr[0],arr[0],arr[0],arr[0],arr[0]
+For Each Loop,for element in arr:,for (int i = 0; i < N; i++) { },for (int i = 0; i < N; i++) { },for (int i = 0; i < N; i++) { },arr.forEach(element => {}),"for element in ""${arr[@]}""; do ... done","for _, v := range arr { }",for element in arr { },arr.each do |element| end
+Object Instantiation,obj = ClassName(),ClassName obj;,ClassName obj;,ClassName obj;,let obj = new ClassName();,obj=$(new ClassName),obj := NewClassName(),let obj = ClassName(),obj = ClassName.new
+Method Call,method(),method();,method();,method();,method();,function call,method(),method(),method()
+Lambda Function,lambda x: x+1,x => x + 1;,auto lambda = [](int x) { return x + 1; };,x -> x + 1;,(x) => x + 1;,func() { return $((x + 1)); },func(x int) int { return x + 1 },{ x in return x + 1 },lambda { |x| x + 1 }
+Try-Catch Block,try: ... except Exception as e:,try { ... } catch (Exception e) { },try { ... } catch (Exception e) { },try { ... } catch (Exception e) { },try { ... } catch (e) { },try { ... } catch { ... },try { ... } catch (e) { },do { ... } catch { ... },begin ... rescue => e
+Class Definition,class ClassName:,struct ClassName { };,class ClassName { };,class ClassName { };,class ClassName {},class ClassName { };,type ClassName struct { },class ClassName { },class ClassName; end
+Object Property Access,obj.property,obj.property;,obj.property;,obj.property;,obj.property;,obj.property,obj.property,obj.property,obj.property
+Static Method,staticMethod(),staticMethod();,staticMethod();,staticMethod();,staticMethod();,staticMethod(),staticMethod(),staticMethod(),self.class.method
+Import Statement,import math,#include <stdio.h>,#include <iostream>,import java.util.*;,"import { someFunction } from ""module"";",source somefile.sh,"import ""fmt""",import Foundation,"require ""some_module"""
+List Append,arr.append(4),arr.push_back(4);,arr.push_back(4);,arr.add(4);,arr.push(4);,"arr+=(""4"")","append(arr, 4)",arr.append(4),arr.push(4)
+Map/Dictionary,"dict = {""key"": ""value""}","map[""key""] = ""value"";","map[""key""] = ""value"";","HashMap<String, String> map = new HashMap<>();",let map = new Map();,declare -A map,"map[""key""] = ""value""","var dict = [""key"": ""value""]","hash = { key: ""value"" }"
+Boolean Logic,if condition and another_condition:,if (condition && another_condition) { },if (condition && another_condition) { },if (condition && another_condition) { },if (condition && another_condition) {},if [ condition ] && [ another_condition ]; then ... fi,if condition && another_condition { },if condition && another_condition {},if condition and another_condition
+Exit Program,exit(),exit(0);,exit(0);,System.exit(0);,exit();,exit,os.Exit(0),exit(0),exit
+Break Loop,break,break;,break;,break;,break;,break,break,break,break
